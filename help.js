@@ -8,9 +8,9 @@ var timestamp = speed();
 var vel = speed() - timestamp
 
 const help = (prefix) => {
-	return`╠═════════════════════════╠
-              ║    LOG BOT TA VIDAH?    ║ 
-              ╠═════════════════════════╠
+return`╠═════════════════════════╠
+       ║    LOG BOT TA VIDAH?    ║ 
+       ╠═════════════════════════╠
 
 
 ➭ Prefixo:  「${prefix} 」
@@ -20,15 +20,11 @@ const help = (prefix) => {
 ➭Tempo de Resposta do bot:
 「${vel.toFixed(4)} Segundos」
 
-➭ Comando : *${prefix}insta*
-➭ útil em : Envia o instagram do criador
-➭ uso : basta enviar o comando 
-
 ➭ Comando : ${prefix}doar
 ➭ útil em : envia as informações para vc doar para ajudar no desenvolvimento do bot 
 ➭ uso : basta enviar o comando 
     
-Numero PESSOAL do Dono! :  🌹 https://wa.me/553898456180 🌹
+Numero PESSOAL do Dono! :  🌹wa.me/553898456180 🌹
 
 
 -----------------------------------
@@ -229,7 +225,7 @@ COMANDOS: DOAR,BUG,OUTROS E ETC!
 ╔════════════════════
   BY: LOG BOT
 
-  sdd chollo
+  eterno chollo
   
   Estou off? Aqui vai o numero dos meus companheiros:
   
