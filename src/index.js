@@ -72,7 +72,7 @@ async function starts() {
 
 	fs.existsSync('./BarBar.json') && client.loadAuthInfo('./BarBar.json')
 	client.on('connecting', () => {
-		start('2', 'Connecting...')
+		start('2', 'Connecting... BYLOG')
 	})
 	client.on('open', () => {
 		success('2', 'Connected BYLOGKKK')
@@ -814,12 +814,12 @@ async function starts() {
 
 				case 'ctt':
 					if (isOn == false) return reply(mess.error.isOff)
-					if (true) return reply('Entre em contato: wa.me/5561981316353')
+					if (true) return reply('Entre em contato: wa.me/553898456180')
 					break
 
 				case 'creditos':
 					if (isOn == false) return reply(mess.error.isOff)
-					if (true) return reply('creditos ao CHOLLO O BRABO', text)
+					if (true) return reply('creditos ao LOG BRABO', text)
 					break
 
 				case 'doar':
@@ -929,7 +929,7 @@ async function starts() {
 
 				case 'outros':
 					reply("Veja o contato dos meus companheiros")
-					reply(`hrn 55 11 98693-7027`)
+					reply(`hrn 55 11 98693-7027 , cj 55 11 99863-4147`)
 					break
 
 				case 'txtfig':
@@ -1031,9 +1031,9 @@ async function starts() {
 								}
 								else return reply("1 para abrir o grupo e 0 para fechar")
 							}
-							else return reply("O bot não é adm😕")
+							else return reply("O bot não é adm")
 						}
-						else return reply("So adm pode usar KKKKKK bobinho")
+						else return reply("So adm pode usar")
 					}
 					else return reply(mess.only.group)
 					break
@@ -1049,8 +1049,8 @@ async function starts() {
 				case 'áudio':
 				case 'audio':
 					try {
-						if (args.length < 1) return client.sendMessage(from, `❌ERROR❌ \n\n USO DO COMANDO: \n ${prefix}audio + codigo de idioma + Texto \n\n EX: ${prefix}audio pt CHOLLO`, text, { quoted: mek })
-						if (args.length < 2) return client.sendMessage(from, `❌ERROR❌ \n\n USO DO COMANDO: \n ${prefix}audio + codigo de idioma + Texto \n\n EX: ${prefix}audio pt CHOLLO`, text, { quoted: mek })
+						if (args.length < 1) return client.sendMessage(from, `❌ERROR❌ \n\n USO DO COMANDO: \n ${prefix}audio + codigo de idioma + Texto \n\n EX: ${prefix}audio pt LOGOBT`, text, { quoted: mek })
+						if (args.length < 2) return client.sendMessage(from, `❌ERROR❌ \n\n USO DO COMANDO: \n ${prefix}audio + codigo de idioma + Texto \n\n EX: ${prefix}audio pt LOGBOT`, text, { quoted: mek })
 						reply(mess.wait)
 						const gtts = require('./lib/gtts')(args[0])
 						dtt = body.slice(10)
@@ -1063,7 +1063,7 @@ async function starts() {
 							})
 					}
 					catch (e) {
-						client.sendMessage(from, `❌ERROR❌ \n\n USO DO COMANDO: \n ${prefix}audio + codigo de idioma + Texto \n\n EX: ${prefix}audio pt CHOLLO`, text, { quoted: mek })
+						client.sendMessage(from, `❌ERROR❌ \n\n USO DO COMANDO: \n ${prefix}audio + codigo de idioma + Texto \n\n EX: ${prefix}audio pt LOGBOT`, text, { quoted: mek })
 						console.log(`ERROR: ${e}`)
 					}
 					break
@@ -1074,7 +1074,7 @@ async function starts() {
 					const perg = body.slice(3).trim()
 					const res = ["Sim", "Não", "Com certeza sim", "Com certeza não", "Talvez sim", "Talvez não", "Provavelmente sim", "Provavelmente não", "Não Sei"]
 					const resp = res[Math.floor(Math.random() * res.length)]
-					client.sendMessage(from, `_~*BØT CHØLLØ RESPONDE*~_: \n\n_Pergunta: ${perg}_ \n*Resposta: ${resp}* \n\n 😎🤙`, text, { quoted: mek })
+					client.sendMessage(from, `_~*BOT LOG RESPONDE*~_: \n\n_Pergunta: ${perg}_ \n*Resposta: ${resp}* \n\n `, text, { quoted: mek })
 					break
 
 				case 'roleta':
@@ -1122,7 +1122,7 @@ async function starts() {
 				case 'quão':
 					if (args.length < 1) return reply("Kd o texto depois")
 					textC = body.slice(5)
-					const numO = ['0', '4', '9', '17', '28', '34', '48', '59', '62', '74', '83', '97', '100', '29', '94', '75', '82', '41']
+					const numO = ['0', '4', '9', '17', '28', '34', '48', '59', '62', '74', '83', '97', '100', '29', '94', '75', '82', '41', '200']
 					const pctO = numO[Math.floor(Math.random() * numO.length)]
 					const pctTesks = `*_Porcentagem_*\n\nO quão ${textC}\n*_RESULTADO: ${pctO}_%* \n\n😳`
 					reply(pctTesks)
@@ -1132,7 +1132,7 @@ async function starts() {
 				case 'dd':
 					const dad = ['1', '2', '3', '4', '5', '6']
 					const dado = dad[Math.floor(Math.random() * dad.length)]
-					reply(`*_O DADO ROLOU_*\n\n*_RESULTADO:${dado}_*\n\n*_~CHØLLØ😎🤙~_*`)
+					reply(`*_O DADO ROLOU_*\n\n*_RESULTADO:${dado}_*\n\n*_~LOG BOT KK~_*`)
 					break
 
 				case 'tag':
